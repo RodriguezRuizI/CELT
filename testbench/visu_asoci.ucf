@@ -1,0 +1,32 @@
+#RELOJ
+
+NET "CLK" LOC = "M6"; #Señal de reloj del sistema
+
+#CONMUTADORES
+
+NET "E0<0>" LOC = "P11"; # CONMUTADOR 0
+NET "E0<1>" LOC = "L3";  # CONMUTADOR 1
+NET "E0<2>" LOC = "K3";  #	CONMUTADOR 2
+NET "E0<3>" LOC = "B4";  # CONMUTADOR 3
+#NET "E2<0>" LOC = "G3";  # CONMUTADOR 4
+#NET "E2<1>" LOC = "F3";  # CONMUTADOR 5
+#NET "E3<0>" LOC = "E2";	 # CONMUTADOR 6
+#NET "E3<1>" LOC = "N3";  # CONMUTADOR 7
+
+#DISPLAY
+
+NET "SEG7<0>" LOC = "L14"; #Segmento a
+NET "SEG7<1>" LOC = "H12"; #Segmento b
+NET "SEG7<2>" LOC = "N14"; #Segmento c
+NET "SEG7<3>" LOC = "N11"; #Segmento d
+NET "SEG7<4>" LOC = "P12"; #Segmento e
+NET "SEG7<5>" LOC = "L13"; #Segmento f
+NET "SEG7<6>" LOC = "M12"; #Segmento g
+
+
+# SEÑALES DE ACTIVACIÓN DE LOS DISPLAYS
+
+NET "AN<3>" LOC = "K14"; # SEÑAL = AN0
+NET "AN<2>" LOC = "M13"; # SEÑAL = AN1
+NET "AN<1>" LOC = "J12"; # SEÑAL = AN2
+NET "AN<0>" LOC = "F12"; # SEÑAL = AN3

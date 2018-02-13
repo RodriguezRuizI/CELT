@@ -1,0 +1,41 @@
+#RELOJ
+
+NET "CLK" LOC = "M6"; #Señal de reloj del sistema
+
+#ENTRADA PLACA
+
+NET "SIN" LOC = "B2"; #Corresponde con la entrada 1 de la FPGA
+					  #GND siempre se encuentra en la entrada 25
+
+#ENTRADA PULSADOR
+
+NET "PULSADOR" LOC = "G12"; #ENTRADA CORRESPONDIENTE AL PULSADOR 1 QUE ES EL DE MÁS A LA DERECHA
+
+#DISPLAY
+
+NET "SEG7<0>" LOC = "L14"; #Segmento a
+NET "SEG7<1>" LOC = "H12"; #Segmento b
+NET "SEG7<2>" LOC = "N14"; #Segmento c
+NET "SEG7<3>" LOC = "N11"; #Segmento d
+NET "SEG7<4>" LOC = "P12"; #Segmento e
+NET "SEG7<5>" LOC = "L13"; #Segmento f
+NET "SEG7<6>" LOC = "M12"; #Segmento g
+
+
+# SEÑALES DE ACTIVACIÓN DE LOS DISPLAYS
+
+NET "AN<3>" LOC = "K14"; # SEÑAL = AN3
+NET "AN<2>" LOC = "M13"; # SEÑAL = AN2
+NET "AN<1>" LOC = "J12"; # SEÑAL = AN1
+NET "AN<0>" LOC = "F12"; # SEÑAL = AN0
+ 
+
+#ENTRADA LED
+
+NET "LED<6>" LOC = "G1"; #Corresponde con el led 7 lunes. Más a la izquierda
+NET "LED<5>" LOC = "P4"; #Corresponde con el led 6 martes
+NET "LED<4>" LOC = "N4"; #Corresponde con el led 5 miercoles
+NET "LED<3>" LOC = "N5"; #Corresponde con el led 4 jueves 
+NET "LED<2>" LOC = "P6"; #Corresponde con el led 3 viernes
+NET "LED<1>" LOC = "P7"; #Corresponde con el led 2 sabado
+NET "LED<0>" LOC = "M11";#Corresponde con el led 1 domingo. Penúltimo a la derecha

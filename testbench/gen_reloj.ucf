@@ -1,0 +1,4 @@
+# Reloj principal del sistema
+NET "CLK" LOC = "M6"; #Señal de reloj del sistema
+#Salidas externas donde se visualiza la señal de reloj dividida
+NET "CLK_M" LOC = "A9"; #Salida terminal 14
